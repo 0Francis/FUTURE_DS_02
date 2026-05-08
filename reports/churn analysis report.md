@@ -27,6 +27,7 @@ The preparation steps included:
 - Applying filters to all columns.
 - Creating a `Churn Flag` column for churn rate calculations.
 - Creating a `Tenure Group` column to analyze customer lifetime patterns.
+- Building an interactive Power BI dashboard to summarize churn KPIs and segment-level patterns.
 
 ## 4. Overall Churn Performance
 
@@ -117,6 +118,7 @@ Tech support appears to play an important role in retention. Customers who recei
 ## 10. Key Findings
 
 - The overall churn rate is 27%.
+- Average customer tenure is 32 months.
 - Month-to-month customers have the highest churn rate at 43%.
 - Customers in their first 12 months have the highest churn rate at 47%.
 - Electronic check users have the highest churn rate at 45%.
@@ -146,8 +148,30 @@ Fiber optic customers churn at a high rate. The business should review service q
 
 Customers with tech support churn less. The company should promote tech support bundles to high-risk customers, especially newer customers and those on month-to-month contracts.
 
-## 12. Conclusion
+## 12. Power BI Dashboard
+
+An interactive Power BI dashboard was created to make the churn analysis easier to explore and present.
+
+The dashboard includes:
+
+- KPI cards for total customers, churned customers, churn rate, and average tenure.
+- Churn rate by contract type.
+- Churn rate by tenure group.
+- Churn rate by payment method.
+- Churn rate by internet service.
+- Churn rate by tech support.
+- Slicers for contract type, tenure group, and internet service.
+
+Dashboard file: [../dashboard/Telco Churn Analysis Dashboard.pbix](../dashboard/Telco%20Churn%20Analysis%20Dashboard.pbix)
+
+Dashboard screenshot: [../images/Telco Customer Churn Analysis.png](../images/Telco%20Customer%20Churn%20Analysis.png)
+
+![Telco Customer Churn Analysis Dashboard](../images/Telco%20Customer%20Churn%20Analysis.png)
+
+## 13. Conclusion
 
 The analysis shows that churn is highest among early-stage customers, especially those on month-to-month contracts, using electronic check payments, lacking tech support, or using fiber optic internet service.
+
+The Power BI dashboard supports these findings by bringing the main KPIs, churn segments, and interactive filters into one view.
 
 To reduce churn, the business should focus on stronger early engagement, contract upgrades, better payment experiences, tech support promotion, and a closer review of the fiber optic customer experience.

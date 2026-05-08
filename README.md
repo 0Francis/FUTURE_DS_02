@@ -11,6 +11,7 @@ This project is part of Task 2 of the FutureInterns Data Science & Analytics int
 ```text
 data/
 dashboard/
+images/
 reports/
 README.md
 ```
@@ -116,5 +117,9 @@ Customers without tech support churn at **42%**, compared with only **15%** for 
 
 ## Dashboard Preview
 
-Dashboard screenshot will be added after building the Power BI dashboard.
+The Power BI dashboard has been added to this repository:
 
+- Dashboard file: [dashboard/Telco Churn Analysis Dashboard.pbix](dashboard/Telco%20Churn%20Analysis%20Dashboard.pbix)
+- Dashboard screenshot: [images/Telco Customer Churn Analysis.png](images/Telco%20Customer%20Churn%20Analysis.png)
+
+![Telco Customer Churn Analysis Dashboard](images/Telco%20Customer%20Churn%20Analysis.png)
